@@ -2,7 +2,6 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:library_speech/drawer.dart';
 
 import 'model.dart';
-
 import 'MyClipper.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -231,7 +230,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                             Image.asset(
                               list.surat,
-                              width: 160,
+                              width: 100,
                               fit: BoxFit.fitWidth,
                             ),
                           ],
